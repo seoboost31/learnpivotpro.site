@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="LearnPivot Pro is a practical learning hub for building digital skills, smarter workflows, and career-ready knowledge.">
+<meta name="robots" content="index,follow">
+<title>LearnPivot Pro | Learn. Build. Move Forward.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#17243a;--blue:#4b63f1;--sky:#e9efff;--cream:#fbfaf6;--text:#26344d;--muted:#718096;--line:#e4e8f0;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Manrope,sans-serif;background:var(--cream);color:var(--text);line-height:1.65}
+h1,h2,h3,.brand{font-family:"Plus Jakarta Sans",sans-serif}a{text-decoration:none;color:inherit}
+.container{width:min(1160px,92%);margin:auto}
+header{padding:22px 0;background:rgba(251,250,246,.88);backdrop-filter:blur(12px);position:absolute;top:0;left:0;right:0;z-index:5}
+nav{display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.25rem;font-weight:800;color:var(--navy)}.brand i{color:var(--blue);font-style:normal}
+.links{display:flex;gap:28px;font-size:.9rem;font-weight:700;color:#536078}.links a:hover{color:var(--blue)}
+.nav-cta{background:var(--navy);color:#fff;padding:11px 18px;border-radius:9px;font-size:.88rem;font-weight:800}
+.hero{padding:155px 0 105px;display:grid;grid-template-columns:1.05fr .95fr;gap:65px;align-items:center}
+.kicker{color:var(--blue);font-weight:800;font-size:.78rem;letter-spacing:.11em;text-transform:uppercase;margin-bottom:20px}
+h1{font-size:clamp(3rem,6vw,5.4rem);line-height:1.02;letter-spacing:-.065em;color:var(--navy);max-width:720px}
+h1 span{color:var(--blue)}
+.hero-copy{font-size:1.05rem;color:var(--muted);max-width:570px;margin:25px 0 30px}
+.buttons{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 21px;border-radius:10px;font-weight:800;font-size:.9rem}.primary{background:var(--blue);color:#fff}.outline{border:1px solid var(--line);background:#fff}
+.visual{position:relative}.visual img{width:100%;height:510px;object-fit:cover;border-radius:28px;display:block;box-shadow:0 25px 70px rgba(36,52,77,.13)}
+.note{position:absolute;right:-25px;top:30px;background:#fff;padding:18px 20px;border-radius:15px;box-shadow:0 18px 45px rgba(36,52,77,.14);width:190px}
+.note b{display:block;color:var(--blue);font-size:1.55rem;font-family:"Plus Jakarta Sans"}.note small{color:var(--muted)}
+section{padding:100px 0}.heading{text-align:center;max-width:720px;margin:0 auto 45px}.heading h2{font-size:clamp(2.2rem,4vw,3.5rem);letter-spacing:-.055em;color:var(--navy);line-height:1.05}.heading p{color:var(--muted);margin-top:16px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:28px;min-height:255px}.icon{width:48px;height:48px;border-radius:13px;background:var(--sky);color:var(--blue);display:grid;place-items:center;font-weight:800;margin-bottom:32px}.card h3{font-size:1.2rem;color:var(--navy);margin-bottom:10px}.card p{color:var(--muted);font-size:.92rem}
+.path{background:var(--navy);color:#fff;border-radius:30px;padding:65px;display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}.path h2{font-size:clamp(2.3rem,4vw,3.8rem);line-height:1.05;letter-spacing:-.055em}.path p{color:#b9c3d3;margin:20px 0}.path img{width:100%;height:390px;object-fit:cover;border-radius:22px}
+.steps{display:grid;gap:14px}.step{display:flex;gap:18px;padding:19px;border:1px solid rgba(255,255,255,.12);border-radius:14px}.step strong{color:#9eafff;font-family:"Plus Jakarta Sans";font-size:.9rem}.step h3{font-size:1rem;margin-bottom:4px}.step p{margin:0;font-size:.83rem}
+.topics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.topic{padding:24px;background:#fff;border:1px solid var(--line);border-radius:16px}.topic b{font-family:"Plus Jakarta Sans";color:var(--navy)}.topic span{display:block;color:var(--muted);font-size:.8rem;margin-top:5px}
+.cta{background:var(--sky);border-radius:28px;padding:70px 30px;text-align:center}.cta h2{font-size:clamp(2.4rem,5vw,4.3rem);color:var(--navy);letter-spacing:-.06em;line-height:1.05}.cta p{max-width:600px;margin:18px auto 28px;color:var(--muted)}
+footer{padding:32px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:.82rem}
+@media(max-width:850px){.links{display:none}.hero,.path{grid-template-columns:1fr}.hero{padding-top:130px}.cards{grid-template-columns:1fr 1fr}.topics{grid-template-columns:1fr 1fr}.note{right:15px}.path{padding:40px}}
+@media(max-width:560px){h1{font-size:3rem}.hero{padding-bottom:65px}.visual img{height:360px}.cards,.topics{grid-template-columns:1fr}section{padding:70px 0}footer{display:block}.path img{height:300px}}
+</style>
+</head>
+<body>
+<header><div class="container"><nav>
+<a class="brand" href="#">LearnPivot<i>Pro</i></a>
+<div class="links"><a href="#learn">Learn</a><a href="#path">Learning Path</a><a href="#topics">Topics</a></div>
+<a class="nav-cta" href="#start">Get Started</a>
+</nav></div></header>
+
+<main>
+<section class="container hero">
+<div>
+<div class="kicker">Practical learning for the digital world</div>
+<h1>Learn skills that <span>move you forward.</span></h1>
+<p class="hero-copy">LearnPivot Pro is a simple learning hub for people who want practical digital skills, better workflows, and knowledge they can actually use in work and everyday projects.</p>
+<div class="buttons"><a class="btn primary" href="#learn">Explore learning →</a><a class="btn outline" href="#path">See the path</a></div>
+</div>
+<div class="visual">
+<img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=1200&q=85" alt="Learner studying with a laptop and notes">
+<div class="note"><b>Learn by doing</b><small>Short lessons. Useful ideas. Real-world application.</small></div>
+</div>
+</section>
+
+<section id="learn">
+<div class="container">
+<div class="heading"><h2>Knowledge with a purpose.</h2><p>Skip the information overload. Explore focused learning areas designed around useful skills and practical outcomes.</p></div>
+<div class="cards">
+<article class="card"><div class="icon">01</div><h3>Digital Skills</h3><p>Build confidence with the tools, concepts, and online skills used in modern work.</p></article>
+<article class="card"><div class="icon">02</div><h3>Productivity</h3><p>Discover smarter ways to organize projects, manage information, and improve daily workflows.</p></article>
+<article class="card"><div class="icon">03</div><h3>Career Growth</h3><p>Develop practical knowledge that can strengthen your portfolio, communication, and professional direction.</p></article>
+<article class="card"><div class="icon">04</div><h3>Technology</h3><p>Understand useful technology topics without unnecessary complexity or jargon.</p></article>
+<article class="card"><div class="icon">05</div><h3>Marketing</h3><p>Learn the foundations of SEO, content, digital visibility, and audience-focused marketing.</p></article>
+<article class="card"><div class="icon">06</div><h3>Creative Work</h3><p>Explore ideas for better digital content, presentation, research, and creative problem-solving.</p></article>
+</div>
+</div>
+</section>
+
+<section id="path">
+<div class="container">
+<div class="path">
+<div>
+<div class="kicker" style="color:#9eafff">A simple learning system</div>
+<h2>Start small. Practice often. Keep progressing.</h2>
+<p>Learning becomes easier when every new idea has somewhere to go. Follow a simple cycle from discovery to practice and application.</p>
+<div class="steps">
+<div class="step"><strong>01</strong><div><h3>Discover</h3><p>Find the concept that solves the problem in front of you.</p></div></div>
+<div class="step"><strong>02</strong><div><h3>Practice</h3><p>Turn the idea into a small, repeatable skill.</p></div></div>
+<div class="step"><strong>03</strong><div><h3>Apply</h3><p>Use what you learned in a real project or workflow.</p></div></div>
+</div>
+</div>
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=85" alt="Students collaborating on a learning project">
+</div>
+</div>
+</section>
+
+<section id="topics">
+<div class="container">
+<div class="heading"><h2>Choose your next topic.</h2><p>Build your own learning journey around the subjects most useful to you.</p></div>
+<div class="topics">
+<div class="topic"><b>SEO & Search</b><span>Visibility and discovery</span></div>
+<div class="topic"><b>AI & Automation</b><span>Modern digital workflows</span></div>
+<div class="topic"><b>Web Basics</b><span>Sites and online tools</span></div>
+<div class="topic"><b>Content</b><span>Writing and communication</span></div>
+<div class="topic"><b>Business</b><span>Ideas and strategy</span></div>
+<div class="topic"><b>Productivity</b><span>Work smarter</span></div>
+<div class="topic"><b>Career</b><span>Professional development</span></div>
+<div class="topic"><b>Digital Marketing</b><span>Reach and engagement</span></div>
+</div>
+</div>
+</section>
+
+<section id="start">
+<div class="container">
+<div class="cta">
+<h2>Make your next skill count.</h2>
+<p>Explore a topic, learn the fundamentals, and turn the knowledge into something useful. Your next pivot can start with one focused lesson.</p>
+<a class="btn primary" href="#learn">Start exploring →</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="container"><span>© 2026 LearnPivot Pro. All rights reserved.</span><span>Learn • Practice • Progress</span></footer>
+</body>
+</html>
